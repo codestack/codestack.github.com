@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Codestack]]></title>
-  <link href="http://yoursite.com/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
-  <updated>2012-09-24T17:20:31+02:00</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://codestack.github.com/atom.xml" rel="self"/>
+  <link href="http://codestack.github.com/"/>
+  <updated>2012-09-24T17:22:18+02:00</updated>
+  <id>http://codestack.github.com/</id>
   <author>
     <name><![CDATA[Hrvoje Simic]]></name>
     
