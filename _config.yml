@@ -3,11 +3,11 @@
 # ----------------------- #
 
 url: http://codestack.github.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: Codestack
+subtitle: Open-source hacking collective
+author: Hrvoje Simic
 simple_search: http://google.com/search
-description:
+description: A home page for the open-source collective named Codestack.
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
