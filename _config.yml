@@ -4,10 +4,10 @@
 
 url: http://codestack.github.com
 title: Codestack
-subtitle: Open-source hacking collective
-author: Hrvoje Simic
+subtitle: We are open source hacking collective based in Croatia
+author: Codestack
 simple_search: http://google.com/search
-description: A home page for the open-source collective named Codestack.
+description: Home page for Codestack.
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -67,9 +67,9 @@ github_skip_forks: true
 twitter_user:
 twitter_tweet_count: 4
 twitter_show_replies: false
-twitter_follow_button: true
+twitter_follow_button: false
 twitter_show_follower_count: false
-twitter_tweet_button: true
+twitter_tweet_button: false
 
 # Google +1
 google_plus_one: false
