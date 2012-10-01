@@ -1,41 +1,17 @@
 ---
-<<<<<<< Updated upstream
-layout: default
----
-
-<div class="blog-index">
-  {% assign index = true %}
-  {% for post in paginator.posts %}
-  {% assign content = post.content %}
-    <article>
-      {% include article.html %}
-    </article>
-  {% endfor %}
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
-    {% endif %}
-    <a href="/blog/archives">Blog Archives</a>
-    {% if paginator.previous_page %}
-    <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
-    {% endif %}
-  </div>
-</div>
-<aside class="sidebar">
-  {% if site.blog_index_asides.size %}
-    {% include_array blog_index_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
-</aside>
-=======
 layout: page
 role: info
 ---
 
-{% img http://gravatar.com/avatar/4386ec0f63bb281e233834751f2ad179 %}
-<br/>
-{% img http://gravatar.com/avatar/076ddab874e5e370a451f0da52afb85c %}
-<br/>
-{% img http://gravatar.com/avatar/da0d3b119d1315c6c1097a218062272e %}
->>>>>>> Stashed changes
+<div id="gravatars" style="text-align: center">
+  <a href="http://github.com/shifi">{% img http://gravatar.com/avatar/4386ec0f63bb281e233834751f2ad179 %}</a>
+  <a href="http://github.com/shime">{% img http://gravatar.com/avatar/076ddab874e5e370a451f0da52afb85c %}</a>
+  <a href="http://github.com/dabrorius">{% img http://gravatar.com/avatar/d5198cf315801c6e58fa1f1192adb114 %}</a>
+  <a href="http://github.com/mmcdaris">{% img http://gravatar.com/avatar/2fbed5c5fe5a5e48dd21b7035c3a6787 %}</a>
+  <a href="http://github.com/pankoholic">{% img http://gravatar.com/avatar/da0d3b119d1315c6c1097a218062272e %}</a>
+</div>
+<hr/>
+
+Our goal is to <span style="font-weight: bold">contribute</span> to various projects and to build our own cool things. We like to learn about <span style="font-weight: bold">web</span>
+technologies and colaborate to become better. We prefer using <span style="font-weight: bold">Ruby</span> since we like it's elegancy and expressiveness.
+
